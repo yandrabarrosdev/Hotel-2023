@@ -118,10 +118,10 @@ button2.addEventListener('click', (event) => {
 
   if (rua.value == "") {
     errorValidation(rua, "Preencha o campo rua.")
-   
+    rua.classList.add("errorInput")
   } else {
     errorValidation(rua, "")
-    rua.classList.remove("errorInput")
+    rua.classLigist.remove("errorInput")
   }
 
   if (rua_number.value == "") {
